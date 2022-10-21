@@ -2,6 +2,7 @@
 #!/bin/bash
 
 ######################### Script to automate creating, compiling and submission of new challenge #########################
+#### Note: Create a directory 'assembly' in home directory ####
 LEVEL=${HOSTNAME:15:5}
 TODO=$1
 temp_var=""
